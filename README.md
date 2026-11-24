@@ -14,9 +14,8 @@ That's my custom PCB project called **metro** — it's a mini LED map of the Sof
 <img width="1080" height="921" alt="Screenshot_20261114_063259_Samsung Browser" src="https://github.com/user-attachments/assets/8b1175bf-6353-472f-a1e7-dc17965042cd" />
 
 ## how it works
-- the ESP32 sends data out on `DATA_OUT` through the resistor into the first WS2812B, then each LED passes the signal along to the next one
+- the ESP32 sends data out on `DATA_OUT` through the resistor into the first WS2812B
 - power comes in through USB-C (`+5V` feeds the LED chain and the AMS1117-3.3 regulator, which gives `+3V3` to the ESP32)
-- laid out in EasyEDA Pro (v4.1) with aligned LEDs and a metro map graphic on top
 
 ## files in here:
 - `SCH_Schematic1_2026-11-13.pdf` — the circuit schematic
